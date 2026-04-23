@@ -1,0 +1,83 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    margin: auto
+}
+
+.produtos h1{
+    text-align: center;
+}
+
+.produtos{
+    padding: 20px 70px;
+}
+
+.hero{
+    width: 100%;
+    height: 500px;
+    background-image: url("bannersiro.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin: 5px 10px
+}
+
+.card img {
+    width: 50px 40px;
+    border-radius: 15px;
+}
+
+.card h2 {
+    font-size: 1.2rem;
+    margin: 10px 0 5px;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.price {
+    font-size: 1.1rem;
+    color: #2d8f4e;
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #2d8f4e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.like {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #e74c3c;
+    cursor: pointer;
+}
